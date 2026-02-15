@@ -6,6 +6,7 @@ How it works:
 It's trained using a real dataset that's been studied by indian doctors
 The data is firstly cleaned and loaded before being tested
 After training the model can predict precisely based on the given accuracy
+“The ‘pregnancies’ feature is included as it relates to gestational diabetes risk in females. For male patients, the value is zero.”
 
 Required Libarires:
 Pandas
@@ -21,3 +22,4 @@ then you can test with new data to get a risk percentage
 Output:
 Model Accuracy
 Diabetes risk prediction
+
